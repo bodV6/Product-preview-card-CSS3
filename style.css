@@ -50,8 +50,13 @@ a:hover{
     color: var(--white);
 }
 
-img {
-    width: 100%;
+section .image {
+     background-image: url("images/image-product-mobile.jpg");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -114,3 +119,22 @@ section {
     background-color: hsl(160, 73%, 9%);
 }
 
+@media (min-width:1440px) {
+    body{
+        border: 1px solid red;
+        max-width: 700px;
+        margin: 3rem auto;
+    }
+
+    section {
+        display: flex;
+        flex-flow: row;
+        margin: 0;
+    }
+
+    img {
+        border: 1px solid red;
+        display: block;
+        height: 100%;
+    }
+}
