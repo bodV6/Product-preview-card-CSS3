@@ -1,0 +1,116 @@
+:root {
+  /* ### Primary color */
+  --darkCyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* ### Neutral color */
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  /*  Font and Typo*/
+
+  --font-size: 0.875rem;
+  --fraun: "Fraunces", serif;
+  --mont: "Montserrat", sans-serif;
+}
+
+/* Using Border Model */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--mont);
+    font-weight: 500;
+    font-size: var(--font-size);
+    background-color: var(--cream);
+    color: var(--darkGrayishBlue);
+    max-width: 375px;
+    margin: 2rem auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--white);
+}
+
+img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    /* max-width: 375px; */
+    margin: 2rem;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.prod-details {
+    padding: 1rem;
+}
+
+.prod-details h3 {
+    font-size:  var(--font-size);
+    letter-spacing: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.prod-details h1 {
+    font-family: var(--fraun);
+    font-size: calc(var(--font-size) * 2);
+    color: var(--veryDarkBlue);
+}
+
+.price {
+    margin: 1.5rem 0;
+    font-family: var(--fraun);
+    font-size: calc(var(--font-size) * 2);
+    color: var(--darkCyan);
+}
+
+.price span {
+    color:var(--darkGrayishBlue);
+    font-family: var(--mont);
+    vertical-align: middle;
+    font-size: small;
+    text-decoration: line-through;
+    margin: 15px;
+}
+
+.cta-click {
+    display: block;
+    background-color: var(--darkCyan);
+    padding: 1rem 3rem;
+    margin: 0 auto; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cta-click [class*="fa"] {
+    margin-right: 1rem;
+}
+
+.cta-click:hover {
+    background-color: hsl(160, 73%, 9%);
+}
+
