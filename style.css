@@ -51,7 +51,6 @@ a:hover {
 }
 
 section {
-  /* border: 1px solid red; */
   display: flex;
   flex-flow: column wrap;
   background-color: var(--white);
@@ -59,7 +58,6 @@ section {
   min-width: 300px;
   width: 375px;
   max-width: 90%;
-  /* height: 75vh; */
   margin: 2rem auto;
 }
 
@@ -70,16 +68,13 @@ section .image {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  /* max-width: 100%; */
   height: 35vh;
-  /* max-height: 300px; */
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 
 .prod-details {
   padding: 1.5rem;
-  /* height: 55%; */
 }
 
 .prod-details h3 {
@@ -140,16 +135,16 @@ section .image {
         background-color: whitesmoke;
     }
   body {
-    border: 1px solid red;
-    height: 100vh;
-    /* box-shadow: 0px 10px 15px 5px rgba(145, 132, 132, 0.75); */
+    min-height: 600px;
+    height: 800px;
+    margin: 1rem;
+    padding: 7rem 0;
+    box-shadow: 0px 10px 15px 5px rgba(145, 132, 132, 0.75);
   }
 
   section {
-    height: 50vh;
-    width: 50vh;
+    width: 40rem;
     max-width: 1440px;
-    margin: 25vh auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -166,7 +161,7 @@ section .image {
   }
 
    .prod-details {
-    padding: 1rem;
+    padding: 2rem;
   } 
 
   .prod-details h3 {
@@ -175,15 +170,15 @@ section .image {
 
   .prod-details h1 {
     margin: 1rem 0;
-    font-size: calc(var(--font-size) * 2.3);
+    font-size: calc(var(--font-size) * 2.5);
     line-height: 1.2;
     padding-right: 0.5rem;
   }
 
   .prod-details p {
     margin: 1.5rem 0;
-    font-size: calc(var(--font-size) * 1);
-    line-height: 1.5;
+    font-weight: 500;
+    font-size: calc(var(--font-size) * 1.1);
   }
 
   .prod-details .price {
