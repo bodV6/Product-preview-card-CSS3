@@ -69,7 +69,7 @@ I was able to:
 
 - Github - [@bodV6](https://github.com/bodV6)
 - Frontend Mentor - [@bodV6](https://www.frontendmentor.io/profile/bodV6)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@bodVr6](https://www.twitter.com/bodVr6)
 
 ## Acknowledgments
 
