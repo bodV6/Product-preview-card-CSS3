@@ -1,6 +1,6 @@
 Product preview card component | HTML & CSS ONLY
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,9 +16,10 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Overview
- Product Preview Card Component is a beginner project using HTML and CSS3.
+
+Product Preview Card Component is a beginner project using HTML and CSS3.
+
 ### The challenge
 
 I was able to:
@@ -32,10 +33,9 @@ I was able to:
 ![](./images/127%20-%20Full%20-%20iPad%20-%202023-16-1%20at%209.52.10%20PM.jpg)
 ![](./images/127%20-%20Full%20-%20iPhone%20X%20-%202023-16-1%20at%209.52.10%20PM.jpg)
 
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Check here](https://www.frontendmentor.io/solutions/product-preview-card-component-E64Y2twucB)
 - Live Site URL: [Webpage](https://bodv6.github.io/Product-preview-card-CSS3/#)
 
 ## My process
@@ -56,7 +56,6 @@ I was able to:
 
 -CSS color scheme
 -CSS custom properties
-
 
 ### Continued development
 
